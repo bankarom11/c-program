@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+float s,b,t,ts;
+printf("Enter salary:");
+scanf("%f",&s);
+b=s*25/100;
+t=s*7/100;
+ts=s+b-t;
+printf("\nBonus=%f",b);
+printf("\nTax=%f",t);
+printf("\nTotal salary=%f",ts);
+}
