@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+float s,b;
+printf("Accept salary:");
+scanf("%f",&s);
+b=s*15/100;
+printf("bonus=%f",b);
+}
