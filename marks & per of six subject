@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{ 
+ int m1,m2,m3,m4,m5,m6,t;
+ float p;
+ printf("Enter six subject marks:");
+ scanf("%d%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5,&m6);
+ t=m1+m2+m3+m4+m5+m6;
+ p=t/6;
+ printf("\nTotal marks=%d",t);
+ printf("\nPercentage=%d",p);
+}
