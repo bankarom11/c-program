@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+
+{
+   int n;
+   printf("Enter number:");
+   scanf("%d",&n);
+   if(n>=100)
+     printf("result=%d",n-20);
+   else
+     printf("result=%d",n+30);
+}
